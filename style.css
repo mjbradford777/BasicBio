@@ -1,0 +1,68 @@
+            body {
+                background-image: url("triangle-mosaic.png");
+            }
+
+            h1 {
+                color: greenyellow;
+                text-align: center;
+                font-family: 'Times New Roman', Times, Serif;
+            }
+
+            #dog {
+                float: left;
+            }
+
+            #cat {
+                float: right;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+
+            .image {
+                margin: 2px;
+                padding: 5px;
+            }
+
+            #image1 {
+                border: 2px dotted blue;
+                opacity: 0.7;
+            }
+
+            #image2 {
+                border: 3px dashed orangered;
+                opacity: 0.5;
+            }
+
+            #main-section {
+                float: left;
+            }
+
+            .infosection {
+                color: red;
+            }
+
+            #name {
+                position: fixed;
+                left: 675px;
+            }
+
+            table, #contact-section {
+                position: fixed;
+                left: 600px;
+            }
+
+            #contact-section {
+                top: 150px;
+            }
+
+            table {
+                bottom: 175px;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+            }
